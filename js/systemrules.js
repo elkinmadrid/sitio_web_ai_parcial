@@ -15,8 +15,8 @@ function requestQuestions() {
     // var config = {
     //     headers: { 'Access-Control-Allow-Origin': '*' }
     //   }
-    url = 'http://3.89.254.52:8080/'
-    axios.post(url + '/systemrules', {
+    url = 'http://ec2-3-89-254-52.compute-1.amazonaws.com/'
+    axios.post(url + 'systemrules', {
         data: formValues
     }
     ).then(function (response) {
