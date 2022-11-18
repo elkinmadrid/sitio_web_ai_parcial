@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Aprendizaje Automatico</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Parcial AI</a>
+            
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link " href="systemrules.html">Sistema de Reglas</a>
+                    <a class="nav-link active" aria-current="page" href="machinelearning.html">Aprendizaje
+                        Automatico</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <h2 class="text-">Definicion</h2>
+                <p class="text-right">
+                    El algoritmo KNN es uno de los algoritmos de clasificación más simples, incluso con tal simplicidad
+                    puede dar resultados altamente competitivos.
+                    Pertenece al dominio de aprendizaje supervisado y puede ser utilizado para el reconocimiento de
+                    patrones, extracción de datos y detección de intrusos.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center">DataSet</h2>
+                <p class="text-right">
+                    Nuestro Set de datos esta basado en información de una empresa para realizar la predicion sobre
+                    si un cliente realizaría el pago de su credito. 
+                    Tenemos una variable binaria que sería el pago por defecto (Sí = 1, No = 0) (Variable Objetivo).
+                    Tambien tenemos en cuenta otras variables para realizar la predición tales como: Genero, Educación, 
+                    Estado civil y edad.
+                </p>
+            </div>
+        </div>
+
+        <div class="form-group col-md-5" style="margin-top:20px">
+            <label for="quintaPregunta"></label>
+            <button type="button" class="btn btn-primary">Ejecutar Algoritmo</button>
+        </div>
+        <label for=""> Aqui iría la predicion</label>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
