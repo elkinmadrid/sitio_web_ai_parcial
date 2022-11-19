@@ -15,7 +15,7 @@ function requestQuestions() {
     // var config = {
     //     headers: { 'Access-Control-Allow-Origin': '*' }
     //   }
-    url = 'https://3.89.254.52/'
+    url = 'https://api-rest-cjla.onrender.com/'
     axios.post(url + 'systemrules', {
         data: formValues
     }
